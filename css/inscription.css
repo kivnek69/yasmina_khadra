@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+
+
+
+body { 
+    background: #00ff00 url("../images/arriere_plan.jpg") no-repeat fixed center; 
+}
+
+
+h1{
+	color: white;
+}
+
+fieldset{
+	
+	background-color:#f7f4fd;
+	border-style: solid;
+	border-width: 2px; 
+	border-radius: 3px;
+
+
+  }
+
+fieldset input{	
+	background: #000;
+	color: #fff;
+	font-weight: bold;
+	padding: 8px 10px;
+	border: 0;	
+	border-radius: 4px;
+}
+
+
+form {
+	padding-right:500px;
+	padding-left:530px;
+		
+}
+
+

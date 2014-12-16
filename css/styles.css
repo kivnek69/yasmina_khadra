@@ -1,0 +1,102 @@
+@CHARSET "UTF-8";
+
+
+/* Global properties ========================================================*/
+
+/**** .bg à verifier *************/
+
+
+.wrapperActu {
+	width:221%;
+	overflow:hidden;
+	position:relative;
+}
+.wrapperA {
+	width:139%;
+	overflow:hidden;
+	position:relative;
+}
+
+
+
+/*********************************boxes**********************************/
+/*****.indent-left2 ******/
+.indent-left_A {
+	padding-left:270px;
+}
+
+
+header {
+/* verifier le contenu 
+	width:90%;
+	background:url(../images/header-tail.gif) center top repeat-x #fff;
+	position:relative;
+        padding-right: 50px;
+        margin-left: 38px;
+	z-index:2;
+	*/
+}
+
+/***** menu *****/
+.menu {
+	
+	/* à verifier
+	padding: 22px 192px 0px 0px;
+	float:right;
+        //background-color: black;
+		*/
+}
+
+
+/*********************************content*************************************/
+#content {
+/*	
+width:90%;
+	background:#fff;
+        padding-right: 50px;
+        margin-left: 38px;
+	position:relative;
+	z-index:1;
+	*/
+}
+h2 {
+	font-size:36px;
+	line-height:2em;
+	color:#4d4d4d;
+	margin-bottom:10px;
+	letter-spacing:-1px;
+}
+
+
+.button-2 a:hover {
+	background:#010101
+}
+
+
+
+/*a iframe {border:none} /* pas d'encadrement des images */
+	/*a:hover {border:0px } /* hack pour IE - ne sert sinon à rien */
+	/*a:hover iframe {width:338px ; height:152px} /* agrandi les images lors du survol */
+
+	
+	
+/****************************footer************************/
+footer {
+/*
+	width:90%;
+	padding:0px 0 0px;
+	*/
+}
+
+
+/**** Easy Tooltip ****/
+#easyTooltip {
+	padding:4px 12px;
+	border:1px solid #fff;
+	background:#121313;
+	color:#fff;
+	font-size:11px;
+	text-transform:none;
+	position:relative;
+	z-index:9;
+}
